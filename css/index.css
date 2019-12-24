@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+.loading{
+    height: 100vh; 
+    width: 100vw; 
+    background: #000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 10px;
+    z-index: 999;
+    position: fixed;
+}
+.loading h2:nth-child(1){
+    text-shadow: 0 0 2px #fff,
+    0 0 10px #bbb,
+    0 0 30px #777;
+    animation:neon-shine 3s linear infinite;
+}
+.loading h2:nth-child(2){
+    text-shadow: 0 0 2px #fff,
+    0 0 10px #bbb,
+    0 0 30px #777;
+    animation:neon-shine 3s 0.5s linear infinite;
+}
+.loading h2:nth-child(3){
+    text-shadow: 0 0 2px #fff,
+    0 0 10px #bbb,
+    0 0 30px #777;
+    animation:neon-shine 3s 1s linear infinite;
+}
+.loading h2:nth-child(4){
+    text-shadow: 0 0 2px #fff,
+    0 0 10px #bbb,
+    0 0 30px #777;
+    animation:neon-shine 3s 1.5s linear infinite;
+}
+.loading h2:nth-child(5){
+    text-shadow: 0 0 2px #fff,
+    0 0 10px #bbb,
+    0 0 30px #777;
+    animation:neon-shine 3s 2s linear infinite;
+}
+.loading h2:nth-child(6){
+    text-shadow: 0 0 2px #fff,
+    0 0 10px #bbb,
+    0 0 30px #777;
+    animation:neon-shine 3s 2.5s linear infinite;
+}
+@keyframes neon-shine1{
+    0%{opacity:1;}
+    80%{opacity:0.5;}
+    90%{opacity:0;}
+    100%{color:#000;}
+}
+@keyframes neon-shine{
+    0%{opacity:1;}
+    10%{opacity:0;}
+    11%{opacity:1;}
+    25%{opacity:0;}
+    26%{opacity:0.5;}
+    90%{opacity:0;}
+    100%{color:#000;}
+} 
